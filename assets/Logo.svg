@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="58.533447mm"
+   height="16.091637mm"
+   viewBox="0 0 58.533447 16.091637"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.62563893"
+     inkscape:cx="106.29134"
+     inkscape:cy="-24.774673"
+     inkscape:window-width="1298"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-74.962188,-109.17252)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:KacstBook;-inkscape-font-specification:KacstBook;stroke-width:0.264583"
+       x="74.042351"
+       y="117.02731"
+       id="text3201"><tspan
+         sodipodi:role="line"
+         id="tspan3199"
+         style="stroke-width:0.264583"
+         x="74.042351"
+         y="117.02731">UDRUGA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Karumbi;-inkscape-font-specification:Karumbi;fill:#000080;stroke-width:0.264583"
+       x="92.760597"
+       y="123.00462"
+       id="text18583"><tspan
+         sodipodi:role="line"
+         id="tspan18581"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Karumbi;-inkscape-font-specification:Karumbi;fill:#000080;stroke-width:0.264583"
+         x="92.760597"
+         y="123.00462">Lokalni obicaji</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.76042px;line-height:1.25;font-family:KacstBook;-inkscape-font-specification:KacstBook;fill:#000080;stroke-width:0.0690108"
+       x="-117.9948"
+       y="130.07092"
+       id="text45925"
+       transform="matrix(0,-1.0220742,0.97840254,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan45923"
+         style="fill:#000080;stroke-width:0.0690108"
+         x="-117.9948"
+         y="130.07092">&lt;</tspan></text>
+  </g>
+</svg>
