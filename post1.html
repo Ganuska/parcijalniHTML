@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Udruga lokalni obicaji</title>
+    <title>post 1</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -44,11 +44,16 @@
         </section>
         <br /><br />
         <section>
-          <form action="#">
+          <section id="comment" class="comment"></section>
+          <form
+            method="POST"
+            enctype="multipart/form-data"
+            onsubmit="handleSubmit(event)"
+          >
             <textarea
               style="width: 60vw"
               name="comment"
-              id=""
+              id="comForm"
               rows="10"
             ></textarea>
             <br /><br />
@@ -64,5 +69,34 @@
         <li><a href="mailto:johnDoe@gmail.com">johnDoe@gmail.com</a></li>
       </ul>
     </footer>
+    <script>
+      const show = () => {
+        comment.innerHTML = JSON.parse(localStorage.getItem("comments"))
+          .map((item) => {
+            return `
+            <h2>komentar</h2>
+            <p>${item}</p>
+            <br><br/>
+            <hr></hr>
+            `;
+            show();
+          })
+          .join("  ");
+      };
+      const comment = document.getElementById("comment");
+      const handleSubmit = (e) => {
+        if (!localStorage.getItem("comments") === true) {
+          localStorage.setItem("comments", JSON.stringify([]));
+        }
+        const coments = [...JSON.parse(localStorage.getItem("comments"))];
+        e.preventDefault();
+        const comForm = document.getElementById("comForm");
+        coments.push(comForm.value);
+        localStorage.setItem("comments", JSON.stringify(coments));
+        show();
+        comForm.value = "";
+      };
+      show();
+    </script>
   </body>
 </html>
