@@ -110,7 +110,7 @@ width: 70vw;
     align-items: center;
 }
 
-@media  (max-width: 400px) {
+@media  (max-width: 600px) {
    .ulFoot{
     flex-direction: column;
    }
