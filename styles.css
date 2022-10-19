@@ -7,6 +7,12 @@ html,body{
     height: 50%;
     width: 15%;
 }
+@media (max-width : 600px) {
+    .resp{
+        overflow: visible;
+    }
+}
+
 a{
     cursor: pointer;
     text-decoration: none;
